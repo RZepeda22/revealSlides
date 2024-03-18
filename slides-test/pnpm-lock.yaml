@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  reveal.js:
+    specifier: ^5.0.5
+    version: 5.0.5
+
 devDependencies:
   gh-pages:
     specifier: ^6.1.1
@@ -622,6 +627,11 @@ packages:
       picocolors: 1.0.0
       source-map-js: 1.1.0
     dev: true
+
+  /reveal.js@5.0.5:
+    resolution: {integrity: sha512-MPWPV/cRlkZhh72dAGYv/bUCr9ulwM2/ucCqiL/KN4tvhb6VvN49iwOyWHE08wppj8lMQXi2xbS3kyKgfyTYqg==}
+    engines: {node: '>=18.0.0'}
+    dev: false
 
   /rollup@4.13.0:
     resolution: {integrity: sha512-3YegKemjoQnYKmsBlOHfMLVPPA5xLkQ8MHLLSw/fBrFaVkEayL51DilPpNNLq1exr98F2B1TzrV0FUlN3gWRPg==}
